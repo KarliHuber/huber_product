@@ -8,6 +8,7 @@ public class Product()
 	//properties
 	public ArrayList products;
 	public float price = 10;
+	public int id = 10;
 	
 	//constructor
 	public Product()
