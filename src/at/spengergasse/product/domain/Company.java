@@ -7,6 +7,7 @@ public class Company
 {
 	//properties
 	privat String name = "Coca Cola";
+	privat String name = "IBM";
 	
 	//get
 	public String getName()
