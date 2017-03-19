@@ -6,13 +6,15 @@ import java.util.*
 public class Product()
 {
 	//properties
-	public ArrayList products;
+	public LinkedList products;
 	public float price = 10;
 	public int id = 10;
+	public boolean onStock = true;
+
 	
 	//constructor
 	public Product()
 	{
-		products = new ArrayList();
+		products = new LinkedList();
 	}
 }
